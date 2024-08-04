@@ -1,0 +1,67 @@
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+    background-image:url("pic5.png");
+    opacity: 0.5;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.login-container {
+    border: 1px solid black;
+    border-radius: 10px;
+    font-weight: bold;
+    padding: 20px;
+    box-shadow: 0 2px 5px rgba(24, 23, 23, 0.1);
+    width: 300px;
+    box-sizing: border-box;
+}
+label{
+    font-size: 30px;
+    text-decoration-color: rgba(247, 232, 232, 0.479);
+    font-weight: bold;
+}
+h2 {
+    text-align: center;
+    font-weight: bold;
+    font-size: 50px;
+    color: hsla(0, 17%, 5%, 0.918);
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+    color: #555;
+}
+
+.form-group input[type="text"],
+.form-group input[type="password"] {
+    width: calc(100% - 22px);
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #333;
+    color: #ffffffe7;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #555;
+}
